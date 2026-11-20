@@ -237,7 +237,6 @@ namespace mango_fusion.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
@@ -252,7 +251,6 @@ namespace mango_fusion.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("SpecialTag")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
