@@ -12,7 +12,7 @@ namespace mango_fusion.Models
         public string Category { get; set; } = string.Empty;
         public string SpecialTag { get; set; }= string.Empty;
         [Range(1,10000)]
-        public double price { get; set; }
+        public double Price { get; set; }
         [Required]
         public string Image {  get; set; } = string.Empty;
     }
